@@ -6,13 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Nome: </h2>
-    <input type="text" name="elemento1">
-    <h2>Cognome:</h2>
-    <input type="text" name="elemento2"><br>
     <form action="/aggiungi" method="post">
+        <h2>Nome: </h2>
+            <input type="text" name="elemento1">
+        <h2>Cognome:</h2>
+            <input type="text" name="elemento2"><br>
+        <h2>Scuola:</h2>
+            <input type="text" name="elemento3"><br>
+        <h2>Hobby:</h2>
+            <input type="text" name="elemento4"><br>
         <button type="submit">salva</button>
     </form>
-    <a href="{{url_for('ritorna')}}">home</a>
+    
 </body>
 </html>
